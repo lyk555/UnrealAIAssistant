@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "UnrealCodex": {
+      "command": "node",
+      "args": ["Resources/mcp-bridge/index.js"],
+      "env": {
+        "UNREAL_MCP_URL": "http://localhost:3000"
+      }
+    }
+  }
+}
