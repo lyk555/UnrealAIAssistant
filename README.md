@@ -1,5 +1,12 @@
 # UnrealAIAssistant
 
+![Unreal Engine](https://img.shields.io/badge/Unreal%20Engine-5.5-5c5c5c?logo=unrealengine)
+![C++](https://img.shields.io/badge/C%2B%2B-20-00599C?logo=c%2B%2B)
+![Platform](https://img.shields.io/badge/Platform-Win64%20%7C%20Linux%20%7C%20Mac-0078D6)
+![AI](https://img.shields.io/badge/AI-CodeX%20%7C%20Claude%20Code-d0845f)
+![MCP](https://img.shields.io/badge/MCP-20%2B%20Tools-7a2cff)
+![License](https://img.shields.io/badge/License-MIT-97CA00)
+
 UnrealAIAssistant is a UE 5.5 editor plugin repository built around the `UnrealAIAssistant` plugin. It integrates AI coding backends directly into the Unreal Editor, currently supporting OpenAI CodeX and Claude Code, while exposing Unreal-specific tools for assets, Blueprints, characters, materials, viewport capture, scripting, and task-based automation.
 
 This repository includes:
