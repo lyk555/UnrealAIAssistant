@@ -1,0 +1,39 @@
+{
+	"FileVersion": 3,
+	"Version": 6,
+	"VersionName": "1.4.0",
+	"FriendlyName": "UnrealAIAssistant",
+	"Description": "AI assistant integration for Unreal Engine 5.5. Use supported backends directly in the editor with Unreal-specific context.",
+	"Category": "Editor",
+	"CreatedBy": "Natali Caggiano",
+	"CreatedByURL": "https://github.com/Natfii",
+	"DocsURL": "https://github.com/lyk555/UnrealAIAssistant",
+	"MarketplaceURL": "",
+	"SupportURL": "https://github.com/lyk555/UnrealAIAssistant/issues",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"EnabledByDefault": true,
+	"EngineVersion": "5.5.0",
+	"SupportedTargetPlatforms": [ "Win64", "Linux", "Mac" ],
+	"Modules": [
+		{
+			"Name": "UnrealAIAssistant",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit",
+			"PlatformAllowList": [ "Win64", "Linux", "Mac" ]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "EditorScriptingUtilities",
+			"Enabled": true,
+			"Optional": true
+		},
+		{
+			"Name": "EnhancedInput",
+			"Enabled": true
+		}
+	]
+}

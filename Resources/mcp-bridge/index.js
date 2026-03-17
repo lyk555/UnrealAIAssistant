@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 
 /**
- * UnrealCodex MCP Bridge
+ * UnrealAIAssistant MCP Bridge
  *
  * Bridges MCP-compatible AI clients to Unreal Engine 5's editor via HTTP REST API.
- * The UnrealCodex plugin runs an HTTP server (default port 3000) with editor manipulation tools.
+ * The UnrealAIAssistant plugin runs an HTTP server (default port 3000) with editor manipulation tools.
  *
  * Environment Variables:
  *   UNREAL_MCP_URL - Base URL for Unreal MCP server (default: http://localhost:3000)

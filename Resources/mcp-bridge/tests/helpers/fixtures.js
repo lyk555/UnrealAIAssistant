@@ -1,7 +1,7 @@
 /**
  * Canned fixture data for MCP bridge tests.
  *
- * Mirrors the JSON shapes returned by the UnrealCodex plugin HTTP server.
+ * Mirrors the JSON shapes returned by the UnrealAIAssistant plugin HTTP server.
  */
 
 export const UNREAL_STATUS_RESPONSE = {

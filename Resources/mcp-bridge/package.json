@@ -1,7 +1,7 @@
 {
   "name": "unrealcodex-mcp-bridge",
   "version": "1.5.0",
-  "description": "MCP bridge for UnrealCodex on Unreal Engine 5.5 - works with Codex CLI and other MCP-compatible AI clients",
+  "description": "MCP bridge for UnrealAIAssistant on Unreal Engine 5.5 - works with Codex CLI and other MCP-compatible AI clients",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -23,7 +23,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lyk555/UnrealCodeX.git"
+    "url": "git+https://github.com/lyk555/UnrealAIAssistant.git"
   },
   "license": "MIT",
   "dependencies": {

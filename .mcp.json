@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-    "UnrealCodex": {
+    "UnrealAIAssistant": {
       "command": "node",
       "args": ["Resources/mcp-bridge/index.js"],
       "env": {

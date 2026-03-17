@@ -1,10 +1,10 @@
-# UnrealCodeX
+# UnrealAIAssistant
 
-UnrealCodeX is a UE 5.5 editor plugin repository built around the `UnrealCodex` plugin. It brings Codex CLI into the Unreal Editor, starts a local MCP server inside the editor, and exposes Unreal-specific tools for assets, Blueprints, characters, materials, viewport capture, scripting, and task-based automation.
+UnrealAIAssistant is a UE 5.5 editor plugin repository built around the `UnrealAIAssistant` plugin. It brings Codex CLI into the Unreal Editor, starts a local MCP server inside the editor, and exposes Unreal-specific tools for assets, Blueprints, characters, materials, viewport capture, scripting, and task-based automation.
 
 This repository includes:
 
-- The `UnrealCodex` Unreal Engine editor plugin
+- The `UnrealAIAssistant` Unreal Engine editor plugin
 - A local Node.js MCP bridge in `Resources/mcp-bridge`
 - Editor automation tests for the MCP tool surface
 
@@ -25,8 +25,8 @@ This repository includes:
 |- Resources/
 |  \- mcp-bridge/        # Node.js MCP bridge
 |- Source/
-|  \- UnrealCodex/       # UE editor module
-|- UnrealCodex.uplugin
+|  \- UnrealAIAssistant/       # UE editor module
+|- UnrealAIAssistant.uplugin
 |- LICENSE
 \- README.md
 ```
@@ -43,13 +43,13 @@ This repository includes:
 Clone or copy this repository into your Unreal project as:
 
 ```text
-<YourProject>/Plugins/UnrealCodex
+<YourProject>/Plugins/UnrealAIAssistant
 ```
 
 Then:
 
 1. Open the project in Unreal Editor.
-2. Enable the `UnrealCodex` plugin if it is not already enabled.
+2. Enable the `UnrealAIAssistant` plugin if it is not already enabled.
 3. Make sure Codex CLI is installed and available on `PATH`.
 4. Run `codex login`.
 5. Install MCP bridge dependencies if needed:
@@ -75,7 +75,7 @@ The included `.mcp.json` points MCP clients to the local bridge:
 ```json
 {
   "mcpServers": {
-    "UnrealCodex": {
+    "UnrealAIAssistant": {
       "command": "node",
       "args": ["Resources/mcp-bridge/index.js"],
       "env": {
@@ -107,7 +107,7 @@ The plugin currently registers MCP tools in these areas:
 The main editor module lives in:
 
 ```text
-Source/UnrealCodex
+Source/UnrealAIAssistant
 ```
 
 Key areas:
@@ -130,7 +130,7 @@ Typical local workflow:
 In the Unreal Editor console, run:
 
 ```text
-Automation RunTests UnrealCodex
+Automation RunTests UnrealAIAssistant
 ```
 
 For the bridge:
@@ -148,7 +148,7 @@ npm test
 
 ## Credits
 
-This project is based on `UnrealCodex` by Natali Caggiano, with this repository packaging and publishing the plugin for the `UnrealCodeX` distribution.
+This project is based on `UnrealAIAssistant` by Natali Caggiano, with this repository packaging and publishing the plugin for the `UnrealAIAssistant` distribution.
 
 ## License
 

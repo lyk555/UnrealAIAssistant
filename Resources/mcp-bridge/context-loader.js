@@ -1,5 +1,5 @@
 /**
- * UnrealCodex Dynamic Context Loader
+ * UnrealAIAssistant Dynamic Context Loader
  *
  * Loads UE 5.5 context files based on:
  * 1. Tool names (automatic injection)

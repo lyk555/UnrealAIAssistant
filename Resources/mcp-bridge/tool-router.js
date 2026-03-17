@@ -1,5 +1,5 @@
 /**
- * Tool Router for UnrealCodex MCP Bridge
+ * Tool Router for UnrealAIAssistant MCP Bridge
  *
  * Legacy compatibility router.
  * The current bridge exposes raw Unreal tool names directly to Codex,
